@@ -1,3 +1,4 @@
+```
 def reverse_each_word(sentense)
   new_sentense = []
   sentense.split(" ").each do |word|
@@ -19,7 +20,7 @@ def reverse_each_word(sentense)
 
   sentense.join
 end
-  
+``` 
   
 def reverse_each_word(sentence)
   sentence.split.collect {|word| word.reverse}.join(" ")
